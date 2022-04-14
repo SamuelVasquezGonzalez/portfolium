@@ -1,0 +1,60 @@
+@media screen and (max-width: 1000px) {
+    .profile-container{
+        flex-direction: column;
+        padding: 12px 12px 0 12px;
+    }
+
+    .profile{
+        width: 100%;
+    }
+
+    .redes-sociales{
+        width: 100%;
+        margin: 12px 0;
+    }
+
+    .descripcion{
+        margin: 0 0 0 12px;
+        width: 96%;
+        height: auto;
+    }
+
+    .centrado{
+        text-align: center;
+    }
+
+    .mas, .cerrar{
+        display: block;
+    }
+
+    .contenedor{
+        position: relative;
+    }
+
+    .menu-lateral{
+        position: fixed;
+        width: 60%;
+        left: -60%;
+        height: 100vh;
+        background-color: white;
+        border-right: 2px solid black;
+        transition: 0.3s all ease;
+        border-bottom-right-radius: 0;
+    }
+
+    .menu{
+        width: 100%;
+        padding: 0;
+    }
+
+    .abierto{
+        left: 0%;
+    }
+
+    .cabeza{
+        justify-content: space-between;
+        flex-direction: row;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+}

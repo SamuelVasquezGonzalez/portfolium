@@ -1,0 +1,102 @@
+.menu-lateral{
+    width: 20%;
+    min-width: 20%;
+    border-bottom-right-radius: 12px;
+}
+
+.logo-container{
+    padding: 8px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.mas, .cerrar{
+    display: none;
+}
+
+.mas{
+    margin: 0 6px;
+}
+
+
+.botones{
+    width: 100%;
+    padding: 0 0 0 0;
+    margin: 25px 0 0 0 ;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-boton{    
+    padding: 0 0 0 7px;
+    margin: 20px 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    transition: 0.3s all ease;
+}
+
+.active{
+    padding: 0;
+    background-color: var(--Hover);
+}
+
+.active > .boton-nombre, .menu-icono{
+    color: black;
+}
+
+.active > .menu-icono{
+    color: black;
+}
+
+.active::before{
+    position: relative;
+    content: "";
+    background-color: #5390D9;
+    height: 100%;
+    width: 8px;
+}
+
+.active:hover > .boton-nombre, .menu-icono{
+    transition: 0.3s all ease;
+    color: black;
+}
+
+.menu-boton:hover > .boton-nombre{
+    transition: 0.3s all ease;
+    padding: 0 0 0 13px;
+}
+
+.menu-boton:hover > .menu-icono{
+    transition: 0.3s all ease;
+    padding: 0 0 0 13px;
+}
+
+.menu-boton:hover{
+    background-color: var(--Hover);
+}
+
+.menu-boton:hover > .menu-icono{
+    color: black;
+}
+
+.boton-nombre{
+    font-size: 1.1em;
+}
+
+.menu-icono{
+    padding: 0;
+    margin: 0 12px 0 0;
+    font-size: 27px;
+}
+
+.menu-icono, .boton-nombre{
+    color: var(--textoOpaco);
+}

@@ -1,0 +1,30 @@
+.cabeza{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    background-color: white;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+.mas{
+    border-radius: 50%;
+    transition: 0.3s all ease;
+}
+
+.mas:active{
+    background-color: var(--Active);
+}
+
+.cerrar{
+    border-radius: 50%;
+    transition: 0.3s all ease;
+}
+
+.cerrar:active{
+    background-color: var(--Active);
+}
