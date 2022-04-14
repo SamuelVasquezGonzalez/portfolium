@@ -12,6 +12,7 @@
 }
 
 .mas{
+    cursor: pointer;
     border-radius: 50%;
     transition: 0.3s all ease;
 }
@@ -20,7 +21,55 @@
     background-color: var(--Active);
 }
 
+.negro{
+    border: none;
+    background: none;
+    color: white;
+}
+
+.modoOscuro-claro{
+    padding: 4px 7px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80px;
+    background-color: rgb(153, 153, 153);
+    border-radius: 12px;
+    position: relative;
+    color: rgb(110, 110, 62);
+}
+
+.super{
+    cursor: pointer;
+    transition: 0.3s all ease;
+    font-size: 1.3em;
+    padding: 3px;
+    left: 0;
+    display: flex;
+    height: 32px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    width: 38.4px;
+    position: absolute;
+    background-color: white;
+    color: black !important;
+}
+
+.activado{
+    left: 40px;
+    background-color: rgb(0, 0, 0) !important;
+    color: rgb(253, 253, 253) !important;
+}
+
+.siu{
+    color: rgb(44, 74, 114);
+}
+
 .cerrar{
+    cursor: pointer;
     border-radius: 50%;
     transition: 0.3s all ease;
 }

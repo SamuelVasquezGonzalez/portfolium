@@ -6,6 +6,13 @@
     --sombra: 0 0 30px rgb(163, 163, 163);
     --textoOpaco: rgb(78, 78, 78);
     --radioBorde: 17px;
+    --textoPrimario: #7400B8;
+    --textoSecundario: #6930C3;
+    /* ------ MODO OSCURO ----- */
+    --fondo: rgb(41, 39, 39);
+    --Hover: #4ea7de9a;
+    --Active: #5390D9;
+    --sombraModoOscuro: 0 0 30px rgb(32, 32, 32);
 }
 
 *{
@@ -30,7 +37,7 @@ body{
 }
 
 h1{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 h2{
@@ -44,3 +51,54 @@ h2{
 a{
     text-decoration: none;
 }
+
+.con-margin{
+    display: flex;
+    align-items: center;
+}
+
+.grande{
+    font-size: 1.3em;
+}
+
+.oscuro{
+    background-color: var(--fondo) !important;
+    color: white;
+}
+
+.tarjeta{
+    background-color: var(--fondo) !important;
+    box-shadow: var(--sombraModoOscuro) !important;
+    color: white;
+}
+
+.negro{
+    color: white !important;
+}
+
+.oscuroModo > .menu-icono{
+    color: rgb(172, 172, 172) !important;
+}
+
+.oscuroModo > .boton-nombre{
+    color: rgb(172, 172, 172) !important;
+}
+
+.oscuroModo:hover > .menu-icono{
+    color: rgb(216, 216, 216) !important;
+}
+
+.oscuroModo:hover > .boton-nombre{
+    color: rgb(216, 216, 216) !important;
+}
+
+.oscuroModo > i{
+    color: white !important;
+}
+
+.negro:hover{
+    color: var(--Hover) !important;
+}
+
+
+

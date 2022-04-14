@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <link rel="stylesheet" href="multimedia/logo/css/samulogo.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="estilos/general.css">
@@ -12,9 +13,9 @@
     <link rel="stylesheet" href="estilos/cuerpo.css">
     <link rel="stylesheet" href="estilos/aside.css">
     <link rel="stylesheet" href="estilos/mediaQueries.css">
-    <title>Document</title>
+    <title>Inicio - Samuel González</title>
 </head>
-<body>
+<body >
     <div class="contenedor">
         <!--  --------------------- -->
         <aside class="menu-lateral">
@@ -48,19 +49,25 @@
         <main class="menu">
             <header class="cabeza">
                 <i class="samsamuellogo logo"></i>
-                <h1 class="logo">Inicio:</h1>
+                <h1 class="logo con-margin"><span class="material-icons-outlined grande">house</span> Inicio:</h1>
+                <div class="modoOscuro-claro">
+                    <span class="material-icons-outlined siu">dark_mode</span>
+                    <span class="material-icons-outlined">light_mode</span>
+                    <button id="activar" class="super negro"><span class="material-icons-sharp">brightness_4</span></button>
+                    
+                </div>
                 <span class="material-icons-outlined mas">more_vert</span>
             </header>
                 <div class="profile-container">
                     <article class="profile">
-                        <img class="img-profile" src="multimedia/js.png" alt="">
+                        <img class="img-profile" src="multimedia/samuel.jpg" alt="">
                         <div class="info">
-                            <h2 class="titulo centrado">Samuel Vasquez Gonzalez</h2>
-                            <h4>Front-end Developer</h4>
+                            <h2 class="titulo centrado con-color">Samuel Vasquez González</h2>
+                            <h4 class="opaco">Front-end Developer</h4>
                         </div>
                     </article>
                     <article class="redes-sociales">
-                        <h1>Redes Sociales</h1>
+                        <h1 class="con-margin"><span class="material-icons-outlined grande">send</span>Redes Sociales:</h1>
                         <div class="redes centrado">
                             <a href=""><i class="fa-brands fa-facebook red"></i></a>
                             <a href=""><i class="fa-brands fa-instagram red"></i></a>
@@ -69,12 +76,13 @@
                     </article>
                 </div>
                 <article class="descripcion">
-                    <h2>Acerca de mi:</h2>
+                    <h2 class="con-margin"><span class="material-icons-outlined">face</span>Acerca de mi:</h2>
                     <p>Soy un desarrollador de software que se especializa mas que todo en el área de Desarrollo Web, soy una persona que siempre busca aprender nuevas tecnologías, en busca de nuevos retos que mejoren mi aprendizaje en esta área, una persona enfocada en alcanzar sus metas y superarse, cuando me propongo algo estoy dispuesto a cumplirlo sin importar la circunstancia.</p>
                 </article>
         </main>
     </div>
 
     <script src="script/menu.js"></script>
+    <script src="script/modoOscuro.js"></script>
 </body>
 </html>
